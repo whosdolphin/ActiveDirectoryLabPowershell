@@ -21,32 +21,43 @@ in this lab I'll teach you how to utilize Oracle Virtual Box to create an Active
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lab Overview: <br/>
+<img src="https://i.imgur.com/tKxSXCe.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install Virtual Box:  <br/>
+<img src="https://i.imgur.com/PxfYQFN.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+- <b>Download and Install virtual box and the extension pack </b>
+<br />
+Download Windows 10 ISO <br/>
+<img src="https://i.imgur.com/SrhdrGa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+- <b>Download Windows 10 ISO https://www.microsoft.com/en-us/software-download/windows10  </b>
+<br />
+Download Windows Server 2019 <br/>
+<img src="https://i.imgur.com/e5LeXyt.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+- <b>Download Windows Server 2019 https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019  </b>
+<br />
+Create Server 2019 on Virtual machine  <br/>
+<img src="https://i.imgur.com/3kPxOU1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b> create server 2019 choose all default creation settings using windows server 2019 make sure to add 2 network adapter 1 attached to NAT and the second Attached to internal network </b>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install Windows Server 2019:  <br/>
+<img src="https://i.imgur.com/Km98meo.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Set up network adapters:  <br/>
+<img src="https://i.imgur.com/ApN0BOy.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<b>Rename computer to DC Restart and Assign the IP addresses from the diagram </b>
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install Domain Controller:  <br/>
+<img src="https://i.imgur.com/KsWWzYT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</b>
+<b>default installation options </b>
 </p>
 
 <!--
